@@ -1,0 +1,9 @@
+torch
+numpy
+# for transformers
+tqdm
+boto3
+requests
+regex
+sentencepiece
+sacremoses
