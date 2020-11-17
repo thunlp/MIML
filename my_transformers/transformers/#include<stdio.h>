@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+char str[50],*s,*p,*q,i,j,k;
+int m,temp;
+printf("input the string:\n");
+gets(str);
+printf("input m:");
+scanf("%d",&m);
+p=str+m;
+q=str+m+5;
+while(q>p)
+{ temp=*p;
+*p=*q;
+*q=temp;
+*p++;
+*q--;
+}
+s=str;
+for(k=0;k<strlen(str);k++)
+	printf("The string is: %s\n",*(str+k));
+printf("\n");
+return 0;
+}
