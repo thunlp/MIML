@@ -1,51 +1,35 @@
-### Computing infrastructure
+## MIML
 
-#### OS:
+Source code and dataset for MIML.
 
-Distributor ID: Ubuntu
-Description:    Ubuntu 16.04.1 LTS
-Release:    16.04
+### Reqirements:
 
-#### GPU:
-
-GeForce RTX 2080Ti
-
-#### Language:
-
-Python 3.7
-
-#### Required packages:
-
-```
-torch
-numpy
-# for transformers
-tqdm
-boto3
-requests
-regex
-sentencepiece
-sacremoses
-```
+* Pytorch>=0.4.1
+* Python3
+* numpy
+* tqdm
+* boto3
+* requests
+* regex
+* sentencepiece
+* sacremoses
 
 OR install with:
 
 > pip install -r requirements.txt
 
 
-### Hyperparameters:
+### Data
 
-The method of choosing hyperparameters:
+The data and the data processing program are under the directory `/data`.
 
-Grid Search
+### BERT
 
-### Pre-processing:
+Following https://github.com/huggingface/transformers, and made some modifications, the modified code is placed under the directory /my_transformers.
 
-The pre-processed files for meta-information are located at ./data/meta-info.json
+#### Pre-trained model:
 
-### Pre-trained model:
-
-Load bert's pre-trained model bert-base-uncased. If the model cannot be downloaded online at runtime due to network reasons, you can pre-download it locally in ./bert-base-uncased path.
+Load BERT's pre-trained model bert-base-uncased. If the model cannot be downloaded online at runtime due to network reasons, you can pre-download it locally in ./bert-base-uncased path.
 
 ### Run:
 
