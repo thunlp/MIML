@@ -1,6 +1,6 @@
 ## MIML
 
-Source code and dataset for [Meta-Information Guided Meta-Learning for Few-Shot Relation Classification](https://www.aclweb.org/anthology/2020.coling-main.140.pdf).
+Source code for [Meta-Information Guided Meta-Learning for Few-Shot Relation Classification](https://www.aclweb.org/anthology/2020.coling-main.140.pdf).
 
 ### Reqirements:
 
