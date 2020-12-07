@@ -27,9 +27,7 @@ The data and the preprocessing code are under the directory `/data`.
 
 ### BERT
 
-We build our model based on the BERT implementation of [Huggingface](https://github.com/huggingface/transformers). The code for our model is placed under the directory /my_transformers.
-
-#### Pre-trained model:
+We build our model based on the BERT implementation of [Huggingface](https://github.com/huggingface/transformers). 
 
 Load BERT's pre-trained model bert-base-uncased. If the model cannot be downloaded online at runtime due to network reasons, you can pre-download it locally in ./bert-base-uncased path.
 
