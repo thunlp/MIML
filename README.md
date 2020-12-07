@@ -41,7 +41,7 @@ python3 main.py --N 10 --K 5 --MI --MF --VAT
 ```
 
 ## Cite
-If you use the dataset or the code, please cite this paper:
+If you use the code, please cite this paper:
 ```
 @inproceedings{dong-etal-2020-meta,
     title = "Meta-Information Guided Meta-Learning for Few-Shot Relation Classification",
