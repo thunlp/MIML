@@ -23,11 +23,11 @@ pip install -r requirements.txt
 
 ### Data
 
-The data and the data processing program are under the directory `/data`.
+The data and the preprocessing code are under the directory `/data`.
 
 ### BERT
 
-Following https://github.com/huggingface/transformers, and made some modifications, the modified code is placed under the directory /my_transformers.
+We build our model based on the BERT implementation of [Huggingface](https://github.com/huggingface/transformers). The code for our model is placed under the directory /my_transformers.
 
 #### Pre-trained model:
 
