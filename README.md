@@ -1,6 +1,6 @@
 ## MIML
 
-Source code and dataset for MIML.
+Source code and dataset for [Meta-Information Guided Meta-Learning for Few-Shot Relation Classification](https://www.aclweb.org/anthology/2020.coling-main.140.pdf).
 
 ### Reqirements:
 
@@ -16,7 +16,9 @@ Source code and dataset for MIML.
 
 OR install with:
 
-> pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 
 ### Data
@@ -34,7 +36,30 @@ Load BERT's pre-trained model bert-base-uncased. If the model cannot be download
 ### Run:
 
 #### MIML (e.g., 10-way-5-shot)
-> python3 main.py --N 10 --K 5 --MI --MF --VAT
+```
+python3 main.py --N 10 --K 5 --MI --MF --VAT
+```
 
-
+## Cite
+If you use the dataset or the code, please cite this paper:
+```
+@inproceedings{dong-etal-2020-meta,
+    title = "Meta-Information Guided Meta-Learning for Few-Shot Relation Classification",
+    author = "Dong, Bowen  and
+      Yao, Yuan  and
+      Xie, Ruobing  and
+      Gao, Tianyu  and
+      Han, Xu  and
+      Liu, Zhiyuan  and
+      Lin, Fen  and
+      Lin, Leyu  and
+      Sun, Maosong",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.coling-main.140",
+    pages = "1594--1605",
+}
+```
 
