@@ -43,15 +43,7 @@ If you use the code, please cite this paper:
 ```
 @inproceedings{dong-etal-2020-meta,
     title = "Meta-Information Guided Meta-Learning for Few-Shot Relation Classification",
-    author = "Dong, Bowen  and
-      Yao, Yuan  and
-      Xie, Ruobing  and
-      Gao, Tianyu  and
-      Han, Xu  and
-      Liu, Zhiyuan  and
-      Lin, Fen  and
-      Lin, Leyu  and
-      Sun, Maosong",
+    author = "Dong, Bowen and Yao, Yuan and Xie, Ruobing and Gao, Tianyu and Han, Xu and Liu, Zhiyuan and Lin, Fen and Lin, Leyu and Sun, Maosong",
     booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
     year = "2020",
     address = "Barcelona, Spain (Online)",
